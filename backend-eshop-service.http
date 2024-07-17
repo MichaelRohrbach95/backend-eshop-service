@@ -1,0 +1,11 @@
+@backend_eshop_service_HostAddress = http://localhost:5189
+
+GET {{backend_eshop_service_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{backend_eshop_service_HostAddress}}/todos/1
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+﻿services:
+  backend-eshop-service:
+    image: backend-eshop-service
+    build:
+      context: .
+      dockerfile: Dockerfile
